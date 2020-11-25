@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background:linear-gradient(#cffc03 0%, #03fca5 100%);
+    background-repeat: no-repeat;
+  height:700px
+}
+
+h1{
+  color:#ff3103;
+ text-shadow: 2px 2px #0a0a0a;
+ font-size: 50px;   
+}
+
+#bio{
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+    width: 20em;
+}
+
+.links:hover{
+    background-color: deepskyblue;
+}
+
+.menu{
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    right: 30px;
+    left: 30px;
+    font-family: sans-serif;
+    z-index: 10;
+    cursor: pointer;
+}
